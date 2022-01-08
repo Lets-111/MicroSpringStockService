@@ -22,4 +22,18 @@ public class StockPrice {
 	@Column(name = "COMPANY_PRICE")
 	private Double companyPrice;
 
+	// adding new features as part of JIRA-3381
+	@Column(name="QUANTITY")
+	private int quantity;
+
+	@Column(name="IS_DIVIDEND)
+	private boolean isDividend;
+
+	// toString()
+	
+	public String toString()
+	{
+		return "Hello";
+	}
+
 }
